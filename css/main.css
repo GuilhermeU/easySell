@@ -1,0 +1,27 @@
+@charset "utf-8";
+html { scroll-behavior: smooth; }
+* {box-sizing: border-box;}
+html body {height: 100%;padding: 0;margin: 0;}
+
+.menu_central{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo_form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.imput{
+    height: 4vh;
+    width: 12vw;
+    background-color: #ccc;
+    margin: .5vh;
+}
+.menu_central img{
+    max-height: 20vh;
+}
